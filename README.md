@@ -14,6 +14,12 @@ token will then be used for subsequent requests until it eventually times out.
 For details on how to perform token and endpoint requests see
 [Flask-Sentinel][3].
 
+## Prereqs
+
+```
+apt-get install libffi-dev libyaml-dev libssl-dev
+```
+
 ## Distributed Services
 Besides extending your Eve instance with Flask-Sentinel you might also opt to
 provide your auth service as a different, isolated application. This would be
